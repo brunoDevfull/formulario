@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <title>formulario</title>
+</head>
+<body>
+    <main>
+        <form  class="form" action="">
+            <div class="form-header">
+                <h4> CADASTRAR PRODUTO </h4>
+    
+            </div>
+    
+            <div class="form-content">
+                <div class= "form-input required">
+                    <label for="nome"> Nome </label>
+                    <input  type="text" name="nome" placeholder="nome do produto" required>
+        
+                </div>
+        
+                <div class="form-input">
+                    <label for="descricao"> Descrição </label>
+                    <input  type="text" name="descricao" placeholder="descrição do produto">
+        
+                </div>
+        
+                <div class="form-input required">
+                    <label for="preco"> Preço </label>
+                    <input  type="text" name="preco" placeholder="informe o preço" required>
+        
+                </div>
+            </div>
+    
+            <div class="form-action">
+                <button type="button" onclick="mensagem()"> Enviar </button>
+    
+            </div>
+        </form>
+    </main>
+</body>
+</html>
